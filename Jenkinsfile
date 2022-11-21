@@ -5,7 +5,7 @@ pipeline {
     }
     agent any
     stages {
-        stage('build a docker images') {
+        stage('build a docker imagessss') {
             steps {
                 script {
                     docker.build img + ":$BUILD_NUMBER"
